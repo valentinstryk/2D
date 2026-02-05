@@ -33,5 +33,6 @@ public class PlayerMovement2D : MonoBehaviour
         }
         transform.position += new Vector3(x,y,0) * (speed * Time.deltaTime);
        
+        
     }
 }
